@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Examination Result Processing System</title>
+</head>
+<body>
+    <h2>Student Examination Result Form</h2>
+    <form action="ResultServlet" method="GET">
+        <label for="regNo">Register Number:</label><br>
+        <input type="text" id="regNo" name="regNo" required><br><br>
+
+        <label for="name">Student Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="dept">Department:</label><br>
+        <input type="text" id="dept" name="dept" required><br><br>
+
+        <label for="m1">Subject 1 Mark:</label><br>
+        <input type="number" id="m1" name="m1" min="0" max="100" required><br><br>
+
+        <label for="m2">Subject 2 Mark:</label><br>
+        <input type="number" id="m2" name="m2" min="0" max="100" required><br><br>
+
+        <label for="m3">Subject 3 Mark:</label><br>
+        <input type="number" id="m3" name="m3" min="0" max="100" required><br><br>
+
+        <label for="m4">Subject 4 Mark:</label><br>
+        <input type="number" id="m4" name="m4" min="0" max="100" required><br><br>
+
+        <label for="m5">Subject 5 Mark:</label><br>
+        <input type="number" id="m5" name="m5" min="0" max="100" required><br><br>
+
+        <label for="attendance">Attendance Percentage (%):</label><br>
+        <input type="number" id="attendance" name="attendance" step="0.01" min="0" max="100" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
